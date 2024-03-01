@@ -26,3 +26,43 @@ body{
 .navegacion-principal{
     background-color: var(--secundario);
 }
+
+.contenedor{
+    width: 120rem;
+    /* una manera de poner los 4 margenes en 4 propiedades 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;*/
+   /*margin:0 auto 0 auto; Tomando las posiciones de un reloj*/
+    margin: 0 auto; /*el primer valor corresponde a top-botton y el segundo valor */
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+/*
+.navegacion-principal a{
+    background-color: var(--primario);
+}
+
+.navegacion-principal a{
+    display: block;
+    background-color: var(--primario);
+}*/
+
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration:none;  /*quita la decoracion "none"  QUITAR SUBRAYADO*/
+    padding: 1rem;
+}
+
+/*centrar el nav*/
+.navegacion-principal {
+    display:flex;   /*convierte un elemento contenedor en un contenedor flex.*/
+    justify-content: center;  /*alinea los elementos a lo largo*/
+} 
