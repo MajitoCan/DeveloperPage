@@ -52,17 +52,23 @@ body{
 }*/
 
 .navegacion-principal{
-    padding: 1rem;
+    /*padding: 1rem;*/
+    display:flex; /*convierte un elemento contenedor en un contenedor flex.*/
+    /*justific-content es para filas, aling-items es para columnas (flex-direction)*/
+    justify-content: space-between;
+    font-size:2 rem;
+    font-weight:bold; /*para ponen letras en negritas*/
 }
 
 .navegacion-principal a{
+    padding: 1rem;
     color: var(--blanco);
     text-decoration:none;  /*quita la decoracion "none"  QUITAR SUBRAYADO*/
-    padding: 1rem;
 }
 
-/*centrar el nav*/
-.navegacion-principal {
-    display:flex;   /*convierte un elemento contenedor en un contenedor flex.*/
-    justify-content: center;  /*alinea los elementos a lo largo*/
-} 
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color:var(--obscuro);
+}
+
+
