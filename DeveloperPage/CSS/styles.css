@@ -71,4 +71,28 @@ body{
     color:var(--obscuro);
 }
 
+/*Tamaños recomedados para media query 
+480px dispositivos moviles
+768px pata tablets
+1140px para laptps 
+1400px para dispositivos mas grandes como monitores o TVs*/
 
+body{
+    background-color: beige;
+}
+
+@media(min-width:480px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+
+@media(min-width: px){
+  
+}
