@@ -48,7 +48,7 @@
             </svg>
           <p>Mérida, Yucatán</p>
         </div>
-        <a class="boton" href="#">Contacto</a>
+        <a class="boton" href="#">Contactar</a>
     </div>
     </section>
 
@@ -126,41 +126,44 @@
           </p>
         </section>
       </div>  <!--cierra clase servicios-->
-    </main>
+
 
     
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
-                <legend> Contactanos llenando todos los campos</legend>
-                <div>
-                    <label">Nombre</label>
-                    <input type="text" placeholder="Tu nombre">
+                <legend> Contáctanos llenando todos los campos</legend>
+                <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input class="input-text" type="text" placeholder="Tu nombre">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Teléfono</label>
-                    <input type="tel" placeholder="Tu telefono">
+                    <input class="input-text" type="tel" placeholder="Tu telefono">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label>Correo Electrónico</label>
-                    <input type="email" placeholder="Tu email">
+                    <input class="input-text" type="email" placeholder="Tu email">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label>Mensaje</label>
-                    <textarea> </textarea>
+                    <textarea class="input-text"></textarea>
                 </div>
+              </div>
 
-                <div>
-                    <input type="Submit" value="Enviar">
+                <div class="alinear-derecha flex">
+                    <input class="boton w-nm-100" type="Submit" value="Enviar"> <!--Submit:entregar-->
                 </div>
 
             </fieldset>
         </form>
     </section>
-    <footer>
+  </main>
+    <footer class="footer">
         <p>Todos los derechos reservados C. MARIA JOSE CEH CAN</p>
     </footer>
 
